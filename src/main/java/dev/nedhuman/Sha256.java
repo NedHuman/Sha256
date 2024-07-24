@@ -38,7 +38,6 @@ public class Sha256 {
 
     /**
      * Digest the data. The new sha256 hash is now obtainable with {@link #get()}
-     * @return
      */
     public Sha256 digest() {
         pad();

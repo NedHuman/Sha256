@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(bytesToHex(new Sha256("hi".getBytes()).digest().get()));
+        System.out.println(bytesToHex(new Sha256("a".getBytes()).digest().get()));
     }
 
     public static String bytesToHex(byte[] bytes) {
